@@ -23,7 +23,7 @@
 }
 .logo-inicio {
     /*top: 0;*/
-  /*  position: absolute; */	    
+  /*position: absolute; */	    
     left:30%;		     
     top:0;		     
     transform: translateX(0%) translateY(0%);
@@ -38,3 +38,25 @@
     outline: 1px solid #fff;
     color: #fff;
 }
+.con {
+    text-align: center;
+}
+.banderas {
+    width: 20px;
+};
+#fila-1 {
+    margin-left: 20%; 
+}
+.opcion {
+    outline: 1px solid red;
+    float: left;
+    
+}
+.prueba {
+    height: 100%;
+}
+.texto {
+    text-align: center;
+    margin-top: 10%;
+}
+
