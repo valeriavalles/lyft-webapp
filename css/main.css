@@ -63,4 +63,19 @@
     margin-left: 5%;
     height: 3rem;
 }
-
+header {
+    text-align: center;
+}
+.borde {
+    border: none;
+    border-bottom: dashed purple;
+    outline: none;
+    width: 30px;
+    
+}
+.borde:focus {
+    border-bottom: dashed #18bc9c;
+}
+.lab-number {
+    text-align: center;
+}
