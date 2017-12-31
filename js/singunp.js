@@ -30,6 +30,7 @@ $(document).ready(function() {
     numero = Math.floor(Math.random()*100)+100;
     var codigo = "Tu código: Lab-"+ numero;
     alert(codigo);
+    window.location.href = '../views/verify.html';
     }
 
 });

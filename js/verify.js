@@ -2,6 +2,7 @@ $(document).ready(function() {
 
     var content = $('#borde');
     var primary =$('#primary');
+    var verify =$('#veryfi-btn')
 
     // Reseteo del boton resend
     primary.on('click',function(){
@@ -16,7 +17,8 @@ $(document).ready(function() {
     }else  {
         $('#veryfi-btn').attr('disabled',true);
     } 
-
- 
-});
+    });
+    verify.on('click',function(){
+        window.location.href = '../views/formulario.html';
+    })
 });

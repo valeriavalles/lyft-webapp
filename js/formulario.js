@@ -5,6 +5,7 @@ $(document).ready(function() {
     var $correo = $('#correo');
 	var $checked = $('input[type="checkbox"]');
     var $boton = $('input[type="submit"]');
+    var next = $('#next');
    // var expresion = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-]+)\.)+([a-zA-Z0-9]{2,4})+$/;
    var validateEmail = false;
     var validateUser = false;
@@ -56,6 +57,10 @@ function desactiveButton() {
         $boton.attr('disabled',true);
     
 }
+next.on('click',function(){
+    window.location.href = '../views/vencier.html';
+})
+
 });
 
 
