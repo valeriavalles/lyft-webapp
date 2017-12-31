@@ -11,16 +11,18 @@ $(document).ready(function() {
 
         if(content.val().length == 10){
             $('#area').attr('disabled',false);
+            $('#area').addClass('purple-next');
             
         }else  {
-            $('#area').attr('disabled',true); 
+            $('#area').attr('disabled',true);
         }  
     })
     /* Generando numeros aleatorios */
 
    /* $('#area').on('click',function(){
-        alert(numero);
+        $(this).addclass('');
     }) */
+
     var boton = document.getElementById('area');
     boton.addEventListener('click',numeroGenerado );
     function numeroGenerado(){

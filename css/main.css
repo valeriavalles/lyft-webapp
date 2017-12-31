@@ -89,9 +89,30 @@ h5 {
 }
 
 .ventana-check {
-    margin-left: 10%;
+    margin-left: 20%;
     margin-top: 10%;
     width: 50%;
     min-height:20vh;
     background: #fff;
+}
+.logo-2 {
+   margin-top: 60%;
+   /*  margin-left: 12%;*/
+}
+.icon-left-rigth {
+    margin-top: 5%;
+}
+.span {
+    margin-right: 70%;
+}
+.span:nth-child(2) {
+    margin-right: 0;
+}
+.next-sing {
+    background: rgb(185, 180, 185);
+    color: #fff;
+}
+.purple-next {
+    background: rgb(230, 10, 138);
+    color: #fff;
 }
