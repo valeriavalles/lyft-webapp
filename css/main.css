@@ -116,3 +116,10 @@ h5 {
     background: rgb(230, 10, 138);
     color: #fff;
 }
+#alert {
+    width: 250px;
+    padding: 5px;
+    background: black;
+    color: red;
+    display: none;
+}
