@@ -118,13 +118,16 @@ h5 {
     background: rgb(230, 10, 138);
     color: #fff;
 }
+#next, #area, #veryfi-btn {
+    outline: none;
+    border: none;
+}
 /*----------ESTILOS VENCIER HTML-----*/
 .logo-2 {
     margin-top: 50%;
     padding-left:15%;
     /*  margin-left: 12%;*/
  }
-
 .col {
     padding-top: 10%;
 }
@@ -135,5 +138,8 @@ h5 {
     min-height:20vh;
     margin-bottom: 5rem;
     background: #fff;
+}
+ .ult {
+    color: rgb(121, 14, 76);
 }
 
