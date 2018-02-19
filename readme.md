@@ -7,7 +7,7 @@ La finalidad de lyft se basa en solicitar al usuario  sus datos a traves de los 
 
 ![ Texto alter](assets/images/lyft.PNG)
 
-### Desarrollado 
+### Desarrollado para
 
 [Laboratoria](http://laboratoria.la).
 
